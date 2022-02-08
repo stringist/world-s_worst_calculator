@@ -14,7 +14,15 @@ function clickCalc() {
     let result;
     console.log("Calc");
     console.log("Operator is :" + operation.value);
-    if (operation === "add") { result = firstNumber + secondNumber; } else if (operation === "mul") { result = firstNumber * secondNumber; } else if (operation === "sub") { result = firstNumber - secondNumber; } else if (operation === "div") { result = firstNumber / secondNumber; }
+    if (operation === "add") {
+        result = firstNumber + secondNumber;
+    } else if (operation === "mul") {
+        result = firstNumber * secondNumber;
+    } else if (operation === "sub") {
+        result = firstNumber - secondNumber;
+    } else if (operation === "div") {
+        result = firstNumber / secondNumber;
+    }
     console.log(result);
 }
 
@@ -22,9 +30,6 @@ function clickClear() {
     console.log("Clear");
 }
 // get input
-
-
-
 
 // getting input
 
